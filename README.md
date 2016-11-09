@@ -19,6 +19,8 @@ $ npm start
 Live demo : [https://cdra0624.github.io/warp-machine/001.warp-machine/](https://cdra0624.github.io/warp-machine/001.warp-machine/)  
 Local demo : http://localhost:PORT/001.warp-machine/
 
+![Imgur](http://i.imgur.com/aJfFBV7.png)
+
 ### References ###
 [adawarp.com](http://adawarp.com/)  
 
