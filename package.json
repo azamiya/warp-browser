@@ -1,0 +1,23 @@
+{
+  "name": "warp-machine",
+  "version": "1.0.0",
+  "description": "warp machine",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cdra0624/warp-machine.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cdra0624/warp-machine/issues"
+  },
+  "homepage": "https://github.com/cdra0624/warp-machine#readme",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}
