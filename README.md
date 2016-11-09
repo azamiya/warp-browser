@@ -16,11 +16,8 @@ $ npm start
 ### Index and [github page is here.](https://cdra0624.github.io/warp-machine/)  
 
 **001.warp machine ver 0.0.1**  
-[Demo page](https://cdra0624.github.io/warp-machine/001.warp-machine/)  
-Local settings  
-```sh
-$ npm start
-```  
+[Live demo : ](https://cdra0624.github.io/warp-machine/001.warp-machine/)  
+Local demo : http://localhost:PORT/001.warp-machine/
 
 ### References ###
 [adawarp.com](http://adawarp.com/)  
