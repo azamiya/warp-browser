@@ -16,7 +16,7 @@ $ npm start
 ### Index and [github page is here.](https://cdra0624.github.io/warp-machine/)  
 
 **001.warp machine ver 0.0.1**  
-[Live demo : ](https://cdra0624.github.io/warp-machine/001.warp-machine/)  
+Live demo : [https://cdra0624.github.io/warp-machine/001.warp-machine/](https://cdra0624.github.io/warp-machine/001.warp-machine/)  
 Local demo : http://localhost:PORT/001.warp-machine/
 
 ### References ###
