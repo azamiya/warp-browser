@@ -1,33 +1,5 @@
 var acc = [90, 90];
 
-window.onload = function(){
-  let analogPad1 = new AnalogPad(document.querySelector('#controller'));
-  /*let analogPad2 = new AnalogPad(document.querySelector('#controller'));
-  let analogPad3 = new AnalogPad(document.querySelector('#controller'));
-  let analogPad4 = new AnalogPad(document.querySelector('#controller'));*/
-  
-  analogPad1.subscribe(function(e){
-    //console.log("analog1: ",e);
-    acc[0] = e.x;
-    acc[1] = e.y
-    if(acc[0] > 30 && acc[0] < 150 && acc[1] > 30 && acc[1] < 150) {
-        if(conn != null) conn.send(acc);
-        //console.log(acc);
-      }
-  });
-  //displayMyCamera();
-
-  /*analogPad2.subscribe(function(e){
-    console.log("analog2: ",e);
-  });
-  analogPad3.subscribe(function(e){
-    console.log("analog3: ",e);
-  });
-  analogPad4.subscribe(function(e){
-    console.log("analog4: ",e);
-  });*/
-}; 
-
 function AnalogPad(mountPoint){
   
   this.callback = null;

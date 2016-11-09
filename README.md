@@ -1,7 +1,7 @@
-# Warp machine #
+# Warp browser #
 
 ### What is this repository for? 
-Warp machine is a browser based application to control Warp OS.
+Warp browser is a browser based application to control Warp OS.
 
 ![yellowLine](docs/assets/images/yellowLine.png)
 
@@ -15,12 +15,11 @@ $ npm start
 ```
 
 ![yellowLine](docs/assets/images/yellowLine.png)
-### Index and [github page is here.](https://cdra0624.github.io/warp-machine/)  
-
-**001.warp machine ver 0.0.1**  
+### Index and [github page is here.](https://cdra0624.github.io/warp-browser/)  
+**001.warp browser ver 0.0.1**  
 Control Warp OS using Adawarp.js. Send arrowkey and commands via button.  
-Live demo : [https://cdra0624.github.io/warp-machine/001.warp-machine/](https://cdra0624.github.io/warp-machine/001.warp-machine/)  
-Local demo : http://localhost:PORT/001.warp-machine/
+Live demo : [https://cdra0624.github.io/warp-browser/001.warp-browser/](https://cdra0624.github.io/warp-browser/001.warp-browser/)  
+Local demo : http://localhost:PORT/001.warp-browser/
 
 ![yellowLine](docs/assets/images/yellowLine.png)
 

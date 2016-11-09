@@ -17,6 +17,17 @@ window.onload = function(){
         document.getElementById("myID").innerHTML = peer.id;
     });
     peer.login();
+    let analogPad1 = new AnalogPad(document.querySelector('#controller'));
+
+    analogPad1.subscribe(function(e){
+    //console.log("analog1: ",e);
+    acc[0] = e.x;
+    acc[1] = e.y
+    if(acc[0] > 30 && acc[0] < 150 && acc[1] > 30 && acc[1] < 150) {
+        if(conn != null) conn.send(acc);
+        //console.log(acc);
+      }
+    });
 }
 
 function displayMyCamera(){
