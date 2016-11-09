@@ -15,7 +15,7 @@ window.onload = function(){
         //console.log(acc);
       }
   });
-  displayMyCamera();
+  //displayMyCamera();
 
   /*analogPad2.subscribe(function(e){
     console.log("analog2: ",e);
