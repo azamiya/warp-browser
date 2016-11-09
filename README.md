@@ -3,6 +3,8 @@
 ### What is this repository for? 
 Warp machine is a browser based application to control Warp OS.
 
+![Imgur](http://i.imgur.com/aJfFBV7.png)
+
 ### How do I get set up? ###
 
 ```sh
@@ -19,7 +21,7 @@ $ npm start
 Live demo : [https://cdra0624.github.io/warp-machine/001.warp-machine/](https://cdra0624.github.io/warp-machine/001.warp-machine/)  
 Local demo : http://localhost:PORT/001.warp-machine/
 
-![Imgur](http://i.imgur.com/aJfFBV7.png)
+![Imgur](docs/assets/images/yellowLine.png)
 
 ### References ###
 [adawarp.com](http://adawarp.com/)  
