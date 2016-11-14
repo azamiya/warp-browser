@@ -5,6 +5,8 @@ var ButtonIdMap = {
   "39": "Right"
 }
 
+var acc = [90, 90];
+
 function keyPressed(key, pressed) {
   if (key < 37 || 40 < key) {
     return;
@@ -32,6 +34,8 @@ document.addEventListener("keyup", function (e) {
 function outputUpdate(vol) {
   document.querySelector('#volume').value = vol;
   vol = parseInt(vol);
-  console.log(typeof(vol));
-  if(conn != null) conn.send(vol);
+  acc[0] = vol;
+  acc[1] = 180 - vol;
+  console.log(typeof(acc));
+  if(conn != null) conn.send(acc);
 }
