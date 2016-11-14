@@ -10,6 +10,8 @@ var acc = {
   pitch : 90
 };
 
+var y = 90;
+
 function keyPressed(key, pressed) {
   if (key < 37 || 40 < key) {
     return;
@@ -39,6 +41,7 @@ function outputUpdate(vol) {
   acc.yaw = parseInt(vol);
   acc.pitch = parseInt(180 - vol);
   //console.log(acc);
-  console.log(typeof(vol));
+  y = parseInt(vol);
+  console.log(typeof(y));
   if(conn != null) conn.send(acc);
 }
