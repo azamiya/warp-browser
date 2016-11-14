@@ -5,7 +5,10 @@ var ButtonIdMap = {
   "39": "Right"
 }
 
-var yaw = [90, 90];
+var acc = {
+  yaw : 90,
+  pitch : 90
+};
 
 function keyPressed(key, pressed) {
   if (key < 37 || 40 < key) {
@@ -33,8 +36,8 @@ document.addEventListener("keyup", function (e) {
 
 function outputUpdate(vol) {
   document.querySelector('#volume').value = vol;
-  yaw[0] = parseInt(vol);
-  yaw[1] = parseInt(180 - vol);
-  console.log(yaw[1]);
-  if(conn != null) conn.send(yaw);
+  acc.yaw = parseInt(vol);
+  acc.pitch = parseInt(180 - vol);
+  console.log(acc);
+  if(conn != null) conn.send(acc);
 }
