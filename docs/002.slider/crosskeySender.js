@@ -33,7 +33,6 @@ document.addEventListener("keyup", function (e) {
 
 function outputUpdate(vol) {
   document.querySelector('#volume').value = vol;
-  vol = parseInt(vol);
   acc[0] = "servo";
   acc[1] = vol;
   if(conn != null) conn.send(acc);
