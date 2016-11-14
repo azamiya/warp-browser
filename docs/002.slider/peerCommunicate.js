@@ -62,3 +62,11 @@ function Full(){
 function Beep(){
     if(conn != null) conn.send("Beep");
 }
+
+function LedOn(){
+  if(conn != null) conn.send("LedOn");
+}
+
+function LedOff(){
+  if(conn != null) conn.send("LedOff");
+}
