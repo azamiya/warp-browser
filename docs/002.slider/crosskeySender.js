@@ -5,7 +5,7 @@ var ButtonIdMap = {
   "39": "Right"
 }
 
-var yaw = [90];
+var yaw = [90, 90];
 
 function keyPressed(key, pressed) {
   if (key < 37 || 40 < key) {
@@ -35,5 +35,6 @@ function outputUpdate(vol) {
   document.querySelector('#volume').value = vol;
   console.log(vol);
   yaw[0] = parseInt(vol);
+  yaw[1] = parseInt(180 - vol);
   if(conn != null) conn.send(yaw);
 }
