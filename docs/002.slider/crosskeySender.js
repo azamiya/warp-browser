@@ -35,6 +35,6 @@ function outputUpdate(vol) {
   document.querySelector('#volume').value = vol;
   yaw[0] = parseInt(vol);
   yaw[1] = parseInt(180 - vol);
-  console.log(yaw);
+  console.log(yaw[1]);
   if(conn != null) conn.send(yaw);
 }
