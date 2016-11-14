@@ -31,6 +31,6 @@ document.addEventListener("keyup", function (e) {
 
 function outputUpdate(vol) {
   document.querySelector('#volume').value = vol;
-  vol = vol * 10000;
+  vol = vol * 1000000;
   if(conn != null) conn.send(vol);
 }
