@@ -43,5 +43,5 @@ function outputUpdate(vol) {
   //console.log(acc);
   y = parseInt(vol);
   console.log(typeof(y));
-  if(conn != null) conn.send(acc);
+  if(conn != null) conn.send(y);
 }
