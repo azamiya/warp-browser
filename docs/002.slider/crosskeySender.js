@@ -38,6 +38,7 @@ function outputUpdate(vol) {
   document.querySelector('#volume').value = vol;
   acc.yaw = parseInt(vol);
   acc.pitch = parseInt(180 - vol);
-  console.log(acc);
+  //console.log(acc);
+  console.log(typeof(vol));
   if(conn != null) conn.send(acc);
 }
