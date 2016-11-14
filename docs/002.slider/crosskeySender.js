@@ -34,6 +34,6 @@ document.addEventListener("keyup", function (e) {
 function outputUpdate(vol) {
   document.querySelector('#volume').value = vol;
   console.log(vol);
-  yaw = parseInt(vol);
+  yaw[0] = parseInt(vol);
   if(conn != null) conn.send(yaw);
 }
